@@ -1,0 +1,46 @@
+@font-face {
+    font-family: digitalClock;
+    src: url(./fonts/digital-7.ttf);
+}
+
+.wrapper {
+    width: 99vw;
+    height: 96vh;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+
+    background-color:  #424242;
+
+}
+
+.clock-style {
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #131313;
+    border-radius: 5vh;
+    border: #292929 solid 10px;
+
+    font-family: digitalClock;
+    color: #FAFAFA;
+
+    text-shadow: 0 0 5px #FAFAFA;
+}
+
+p {
+    margin: 0;
+    position: relative;
+    bottom: 1vh;
+    font-size: 4vw;
+}
+
+#clock {
+    font-size: 18vw;
+}
+
